@@ -1,0 +1,61 @@
+
+a:hover {
+  color: #d11d17;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-width: 150px;
+  min-height: 60vh;
+  background-image: url("https://free4kwallpapers.com/uploads/wallpaper/samurai-jack-wallpaper-1024x768-wallpaper.jpg");
+  background-size: 1439px 900px
+}
+
+h1 {
+  font-size: 3.0em;
+  line-height: 1.1;
+  position: absolute;
+  bottom: 730px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: rgb(185, 65, 65);
+  right: 70%;
+}
+
+h2 {
+  font-size: 2.0em;
+  line-height: 1.1;
+  position: absolute;
+  bottom: 670px;
+  font-style: italic;
+  color: #030101 ;
+  right: 76%;
+}
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blanchedalmond;
+  color: rgb(187, 16, 16);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  position: absolute;
+  right: 74%;
+  bottom: 550px;
+}
+
+button:hover {
+  border-color: #eb0d0d;
+}
